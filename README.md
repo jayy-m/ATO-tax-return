@@ -9,6 +9,14 @@ Two Claude skills that help prepare an Australian individual tax return for self
 
 ## Install
 
+With the [skills](https://skills.sh) CLI (installs both skills):
+
+```bash
+npx skills add jayy-m/ATO-tax-return
+```
+
+Or install manually:
+
 - **Claude (claude.ai / desktop app):** zip each skill folder (e.g. `australian-tax-return-prep/` containing `SKILL.md`) and upload it in Claude's skills settings.
 - **Claude Code:** copy each folder into `~/.claude/skills/` (personal) or `.claude/skills/` in a project.
 
